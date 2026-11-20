@@ -1,5 +1,8 @@
 # app.py
 courses = ["B toifasi (Yengil avto)", "A toifasi (Mototsikl)", "C toifasi (Yuk mashinasi)"]
+def check_exam_result(score):
+    return "Imtihondan o'tdi" if score >= 70 else "Imtihondan o'tmadi"
+
 def register_student(name, category):
     print(f"O'quvchi ro'yxatga olindi: {name} - Kurs: {category}")
 
